@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "lead-score-tagger",
+      "name": "見込み客スコアリングタグ",
+      "version": "0.1.0",
+      "path": "plugins/lead-score-tagger",
+      "description": "診断回答と閲覧行動から見込み度を計算し、しきい値以上の友だちへ既存タグを付与します。",
+      "sdkVersion": "0.24.0",
+      "runtime": "cloudflare-workers",
+      "defaultMode": "dry-run"
+    }
+  ]
+}
