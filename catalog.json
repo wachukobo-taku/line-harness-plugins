@@ -10,6 +10,16 @@
       "sdkVersion": "0.24.0",
       "runtime": "cloudflare-workers",
       "defaultMode": "dry-run"
+    },
+    {
+      "id": "form-theme-studio",
+      "name": "LineHarness Form Theme Studio",
+      "version": "0.1.0",
+      "path": "plugins/form-theme-studio",
+      "description": "LineHarnessの利用者向けフォームを、回答処理を保ったまま5種類のブランドテーマで表示します。",
+      "sdkVersion": "0.24.0",
+      "runtime": "cloudflare-workers",
+      "defaultMode": "read-write-on-user-submit"
     }
   ]
 }

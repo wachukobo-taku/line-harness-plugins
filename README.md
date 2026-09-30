@@ -8,6 +8,7 @@
 | プラグイン | 用途 | 状態 |
 | --- | --- | --- |
 | [lead-score-tagger](./plugins/lead-score-tagger) | 診断・閲覧行動から見込み度を計算し、既存タグを付与 | v0.1.0 |
+| [form-theme-studio](./plugins/form-theme-studio) | 利用者向けフォームを5種類のブランドテーマで表示 | v0.1.0 |
 
 機械可読な一覧は [catalog.json](./catalog.json) にあります。
 

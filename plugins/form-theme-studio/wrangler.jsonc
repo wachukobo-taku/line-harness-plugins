@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "line-harness-plugin-form-theme-studio",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-07",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true },
+  "triggers": { "crons": [] },
+  "vars": {
+    "LINE_HARNESS_API_URL": "https://your-line-harness.example.com",
+    "LIFF_ID": "",
+    "DEFAULT_THEME": "line"
+  }
+}
